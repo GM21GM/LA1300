@@ -5,9 +5,10 @@
 Giovanni Innamorato, Giuliano Martullo, Steven Salie
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
-|       | 0.0.1   | ✍️ Jedes Mal, wenn Sie an dem Projekt arbeiten, fügen Sie hier eine neue Zeile ein und beschreiben in *einem* Satz, was Sie erreicht haben. |
-|       | ...     |                                                              |
-|       | 1.0.0   |                                                              |
+|  16.08     | 0.0.1   |  Wir haben unser wissen zu C# wieder aufgefrischt und haben die Planung erstellt. |
+|   23.08    | 0.0.2     |   Wir haben noch recherchiert und uns danach ans Programmieren gemacht                                                           |
+|     30.8  | 0.0.3   |     Wir sind mit unseren Aufgaben fertig geworden                                                         |
+|06.09| 1.0.0|Wir haben unsere Codes zusammengefügt und auf Fehler getestet.|
 
 ## 1 Informieren
 
@@ -35,49 +36,54 @@ Unser Projekt ist ein Randomnumber Guesser mit Hilfe von C# zu programmieren.
 |1.1	|Das Spiel wurde gestartet.|	Keine spezifische Eingabe erforderlich.|	Eine zufällige Zahl wurde generiert.|
 |2.1|	Das Spiel läuft, und eine zufällige Zahl wurde generiert.|	Der Benutzer gibt eine falsche Zahl ein.|Eine Nachricht, die besagt, dass die Zahl falsch ist und ob sie höher oder niedriger ist als die gesuchte Zahl.|
 |1.2|	Das Spiel läuft, und eine zufällige Zahl wurde generiert.|	Der Benutzer gibt die richtige Zahl ein.|	Eine Nachricht, die besagt, dass der Benutzer das Spiel gewonnen hat.|
+|3.1| Spiel beendet| ("Nochmal spielen") "True"| Neues Spiel wird gestartet|
+|4.1|Programm gestartet|("Möchtest du den Zweispielermodus spielen") "True"| Zweispielermodus wird gestartet|
+|5.1| Zahl wurde in unter sieben Versuchen erraten|("Möchest du den Hardcore-Modus spielen?")"True"|Schwerer Modus wird gestartet|
+|6.1|Programm gestartet|("Möchtest du mit Buchstaben spielen?") "True"|Alphabet-Modus wird gestartet|
 
-✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
+
 
 
 ## 2 Planen
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
-| 1.A  |       |           |              |               |
-|   |   06.09    |           |              |               |
-|   |   06.09    |           |              |               |
-|   |   06.09    |           |              |               |
-|   |   06.09    |           |              |               |
-|   |   06.09    |           |              |               |
-|   |   06.09    |           |              |               |
+|  1 ,2,3|   06.09    |     Giovanni, Giuliano, Steven      |    Grundstruktur des Spiels erstellen          |     120 Min          |
+| 4  |   06.09    |   Giuliano        |    Zweispieler-Modus erstellen             |   180 Min        |
+| 5  |   06.09    |    Giovanni       |      Hardcore-Modus erstellen        |         180    Min  |
+|  6 |   06.09    |     Steven      |     Alphabet-Modus erstellen         |        180      Min |
 
-Total: 
+Total: 660 Min
 
-✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, auf die sich das Arbeitspaket bezieht, und `m` von `A` an nach oben buchstabiert. Beispiel: Das dritte Arbeitspaket, das die zweite User Story betrifft, hat also die Nummer `2.C`.
 
-✍️ Ein Arbeitspaket sollte etwa 45' für eine Person in Anspruch nehmen. Die totale Anzahl Arbeitspakete sollte etwa Folgendem entsprechen: `Anzahl R-Sitzungen` ╳ `Anzahl Gruppenmitglieder` ╳ `4`. Wenn Sie also zu dritt an einem Projekt arbeiten, für welches zwei R-Sitzungen geplant sind, sollten Sie auf `2` ╳ `3` ╳`4` = `24` Arbeitspakete kommen. Sollten Sie merken, dass Sie hier nicht genügend Arbeitspakte haben, denken Sie sich weitere "Kann"-User Stories für Kapitel 1.2 aus.
 
-## 3 Entscheiden
 
-✍️ Dokumentieren Sie hier Ihre Entscheidungen und Annahmen, die Sie im Bezug auf Ihre User Stories und die Implementierung getroffen haben.
+## 3 Realisieren
 
-## 4 Realisieren
-
-| AP-№ | Datum | Zuständig | geplante Zeit | 
+| AP-№ | Datum | Zuständig | Tatsächliche Zeit | 
 | ---- | ----- | --------- | ------------- | 
-| 1.A  |  06.09     |    Salie       |   90            |                  
-| ...  |       |           |               |                   
+| 1.A  |    23.08  |    Alle       |   30            |                  
+| 2.A  |    23.08   |     Alle      |   25            |      
+| 3.A  |     23.08  |     Alle      |     40          |                   
+| 4.A  |     30.08  |     Giuliano      |       200        |                   
+| 5.A  |     30.08  |     Giovanni      |       170        |   
+| 6.A  |    30.08   |      Steven     |      190         |                   
 
-✍️ Tragen Sie jedes Mal, wenn Sie ein Arbeitspaket abschließen, hier ein, wie lang Sie effektiv dafür hatten.
 
-## 5 Kontrollieren
 
-### 5.1 Testprotokoll
+
+## 4 Kontrollieren
+
+### 4.1 Testprotokoll
 
 | TC-№ | Datum | Resultat | Tester |
 | ---- | ----- | -------- | ------ |
-| 1.1  |       |          |        |
-| ...  |       |          |        |
+| 1.1  |  06.09     |     OK     |   Alle     |
+| 1.2 |   06.09      |     OK     |      Alle  |
+| 2.1 |   06.09      |     OK     |    Alle    |
+| 3.1 |  06.09       |    OK      |     Alle   |
+| 4.1|  06.09       |    OK      |   Steven     |
+| 5.1 | 06.09        |    OK      |   Giuliano     |
+| 6.1|  06.09       |     OK     |   Giovanni     |
 
-✍️ Vergessen Sie nicht, ein Fazit hinzuzufügen, welches das Test-Ergebnis einordnet.
 
